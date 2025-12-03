@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (not included in repository)
+*.jsonl
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Output directories
+outputs/
+logs/
+results/
+runs/
+wandb/
+
+# Figures and visualizations (generated files)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.gif
+*.mp4
+*.avi
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# OS files
+Thumbs.db
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Model files (large files)
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Configuration files with sensitive information
+config.yaml
+config.json
+secrets.json
+.env
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Documentation builds
+docs/_build/
+site/
+
